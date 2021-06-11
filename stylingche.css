@@ -1,0 +1,110 @@
+body{
+    background-image: url("bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+h1{
+	color: White;
+	text-shadow: 1px 1px 2px darkcyan, 0 0 25px darkcyan, 0 0 5px cyan;
+	font-size: 70px;
+}
+h2{
+	color: #27a5ae;
+    font-size: 45px;
+	
+}
+p{
+	text-indent: 50px;
+}
+#sp1{
+	background-color: #d0ebed;
+	padding: 20px;
+	border-radius: 10px;
+	border-left: 10px solid darkcyan;
+	margin-bottom: 10px;
+}
+#img1{
+	border-radius: 20px;
+    border: 4px solid darkcyan;
+	height: 300px;
+	width: 250px;
+	margin: 20px 50px 30px 0;
+	float: right;
+    position: relative;
+    box-shadow: 1px 1px 10px 1px cyan
+}
+
+#img2{
+	border-radius: 20px;
+    border: 4px solid darkcyan;
+	height: 440px;
+	width: 440px;
+	margin:50px 50px 30px 50px;
+	float: left;
+	position: relative;
+    box-shadow: 1px 1px 10px 1px cyan	
+}
+#img1:hover{
+	opacity: 0.6;
+}
+#img2:hover{
+	opacity: 0.6;
+}
+button{
+	padding: 15px;
+	margin: 10px;
+	background-color:  #d0ebed;
+	border-radius: 15px;
+	border: none;
+    outline: none;
+}
+button:hover{
+	background:  #adadba;
+	
+}
+a{
+	text-decoration: none;
+	color: darkcyan;
+	font-size: 15px;
+}
+a:hover{
+	color: black;
+}
+div.cen{
+	justify-content: center;
+
+}
+table,td{
+	margin: 0 100px 0 100px;
+	border: 2px solid white;
+	padding: 18px;
+	border-collapse: collapse;
+}
+th{
+font-size: 35px;
+text-align: left;
+text-decoration: underline;
+padding: 25px;
+border: 2px solid white;
+}
+#b1{
+ 	padding: 5px 15px;
+	margin: 10px;
+	background-color:  #d0ebed;
+	border-radius: 15px;
+	border: none;
+}
+#b1:hover{
+	background:  #adadba;
+	
+}
+#b1 a{
+	text-decoration: none;
+	color: darkcyan;
+	font-size: 20px;
+    font-weight: 900;
+}
